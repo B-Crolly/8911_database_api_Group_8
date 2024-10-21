@@ -1,0 +1,7 @@
+
+curl -X PUT "http://localhost:7071/api/customers/1" \
+     -H "Content-Type: application/json" \
+     -d '{
+           "name": "Updated Customer",
+           "description": "This customer has been updated."
+         }'
