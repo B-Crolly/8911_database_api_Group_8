@@ -1,0 +1,7 @@
+curl -X POST "http://localhost:7071/api/customers" \
+     -H "Content-Type: application/json" \
+     -d '{
+            "id": "1",
+           "name": "Test Man",
+           "description": "This is a new man."
+         }'

@@ -9,7 +9,7 @@
       "methods": [
         "post"
       ],
-      "route":"customers/{id}"
+      "route":"customers"
     },
     {
       "type": "http",

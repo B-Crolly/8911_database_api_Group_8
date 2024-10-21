@@ -1,0 +1,1 @@
+curl -x  GET "http://localhost:7071/api/customers/"
