@@ -13,8 +13,8 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         client = CosmosClient.from_connection_string(cosmos_db_connection_string)
 
         # Set database and container
-        database_name = 'Clients'
-        container_name = 'Customers'
+        database_name = os.environ['DBName']
+        container_name = os.environ['DBContainer']
         database = client.get_database_client(database_name)
         container = database.get_container_client(container_name)
 
